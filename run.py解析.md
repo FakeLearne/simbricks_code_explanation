@@ -213,6 +213,8 @@ def add_exp(
 
 ### 4. 主程序——main
 
+**解析命令行参数 --> 初始化 Executor（实验调度逻辑和物理执行环境之间的桥梁） --> 初始化 Runtime --> 从 python 模块（配置脚本 / 实验调度逻辑）中加载实验 --> 配置checkpoint --> 添加实验运行示例（把 python 模块中定义的实验添加到 Runtime 中） --> 启动（Runtime）**
+
 1. 解析命令行参数与初始化执行器
 
 ```python
