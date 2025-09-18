@@ -9,7 +9,7 @@ exec python3 /simbricks/experiments/run.py "$@"
 
 
 
-![image-20250818143541828](C:\Users\cheny\AppData\Roaming\Typora\typora-user-images\image-20250818143541828.png)
+![image-20250818143541828](assets/image-20250818143541828-1758180929151-2.png)
 
 大小仅为 60 字节
 
